@@ -28,7 +28,7 @@ Demo video:
 * `Tensorflow 1.8` (recomended) 
 * `python packages` such as opencv, matplotlib
 
-## Run pydnet on webcam stream
+## Run 3net on webcam stream
 
 To run 3net, just launch
 
