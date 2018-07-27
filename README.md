@@ -2,9 +2,7 @@
 This repository contains the source code of 3net, proposed in the paper "Learning monocular depth estimation with unsupervised trinocular assumptions", 3DV 2018.
 
 <p align="center">
-  <img src="screenshots/mode0.png" width="33%" height="33%" alt="3net">
-  <img src="screenshots/mode1.png" width="33%" height="33%" alt="3net">
-  <img src="screenshots/mode2.png" width="33%" height="33%" alt="3net">
+  <img src="screenshots/mode2.png" width="66%" height="66%" alt="3net">
 </p>
 
 If you use this code in your projects, please cite our paper:
@@ -35,6 +33,12 @@ To run 3net, just launch
 ```
 python webcam.py --checkpoint_dir /checkpoint/3DV18/3net --mode [0,1,2]
 ```
+
+While the demo is running, you can press:
+
+* 'm' to change mode (0: depth-from-mono, 1: depth + view synthesis, 2: depth + view + SGM)
+* 'p' to pause the stream
+* 'ESC' to quit
 
 ## Train 3net from scratch
 
