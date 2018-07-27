@@ -26,6 +26,7 @@ Demo video:
 To run 3net, just launch
 
 ```
+sh get_checkpoint.sh
 python webcam.py --checkpoint_dir /checkpoint/3DV18/3net --mode [0,1,2]
 ```
 
