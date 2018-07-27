@@ -2,7 +2,7 @@
 This repository contains the source code of 3net, proposed in the paper "Learning monocular depth estimation with unsupervised trinocular assumptions", 3DV 2018.
 
 <p align="center">
-  <img src="screenshots/mode2.png" width="66%" height="66%" alt="3net">
+<iframe width="380" height="260" src="https://www.youtube.com/embed/uMA5YWJME4M?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </p>
 
 If you use this code in your projects, please cite our paper:
