@@ -39,5 +39,5 @@ While the demo is running, you can press:
 ## Train 3net from scratch
 
 Code for training will be (eventually) uploaded.
-Meanwhile, you can train pydnet by embedding it into https://github.com/mrharicot/monodepth
+Meanwhile, you can train 3net by embedding it into https://github.com/mrharicot/monodepth
 
