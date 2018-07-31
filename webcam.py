@@ -32,7 +32,7 @@ from utils import *
 from trinet import *
 
 # forces tensorflow to run on CPU
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+#os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 parser = argparse.ArgumentParser(description='Argument parser')
 
@@ -88,12 +88,12 @@ def main(_):
           disp_color = (applyColorMap(disp*DEPTH_FACTOR, 'plasma')*255).astype(np.uint8)
           toShow_C = np.concatenate((img, disp_color), 1)
 
+          narrow_disp = np.zeros_like(synt_left)
+          wide_disp = np.zeros_like(synt_left)
           # If synthetic views are active
           if args.mode==0:
             synt_left = np.zeros_like(synt_left)
             synt_right = np.zeros_like(synt_left)
-            narrow_disp = np.zeros_like(synt_left)
-            wide_disp = np.zeros_like(synt_left)
           else:
             # If SGM is active
             if args.mode>1:
