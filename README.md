@@ -13,6 +13,9 @@ If you use this code in your projects, please cite our paper:
 }
 ```
 
+For more details:
+[arXiv](http://arxiv.org/abs/1808.01606)
+
 Demo video:
 [youtube](https://www.youtube.com/watch?v=uMA5YWJME4M)
 
