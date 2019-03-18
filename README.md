@@ -5,9 +5,9 @@ If you use this code in your projects, please cite our paper:
 ```
 @inproceedings{3net18,
   title     = {Learning monocular depth estimation with unsupervised trinocular assumptions},
-  author    = {Matteo Poggi and
-               Fabio Tosi and
-               Stefano Mattoccia},
+  author    = {Poggi, Matteo and
+               Tosi, Fabio and
+               Mattoccia, Stefano},
   booktitle = {6th International Conference on 3D Vision (3DV)},
   year = {2018}
 }
