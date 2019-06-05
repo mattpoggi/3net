@@ -21,7 +21,7 @@ Demo video:
 
 ## Requirements
 
-* `Tensorflow 1.8` (recomended) 
+* `Tensorflow 1.8` (recommended) 
 * `python packages` such as opencv, matplotlib
 
 ## Run 3net on webcam stream
